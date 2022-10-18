@@ -37,6 +37,7 @@ textarea{
 }
 
 .hour {
+  padding-top: 25px;
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
@@ -66,6 +67,8 @@ textarea{
 }
 
 .saveBtn i:hover {
+  cursor: pointer;
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
