@@ -1,6 +1,7 @@
 //Save button variable for listen function
 var saveBtn = $(".saveBtn");
 
+$(document).ready(function () {
 //Show current day in header
 $("#currentDay").text(moment().format('MMMM Do YYYY'));
 
@@ -39,4 +40,5 @@ function workSchedule() {
 }
 
 timeBlockHour()
-workSchedule()
+workSchedule() 
+})
